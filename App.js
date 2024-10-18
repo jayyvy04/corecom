@@ -7,15 +7,18 @@ import MyImage from './MyImage'
 import MyImageBackground from './MyImageBackground'
 import MyKeyboardAvoidingView from './MyKeyboardAvoidingView'
 import MyModal from './MyModal'
-import MyImage from './MyImage'
-import MyImage from './MyImage'
-import MyImage from './MyImage'
-import MyImage from './MyImage'
-import MyImage from './MyImage'
-import MyImage from './MyImage'
-import MyImage from './MyImage'
-import MyImage from './MyImage'
-import MyImage from './MyImage'
+import MyPressable from './MyPressable'
+import MyRefreshControl from './MyRefreshControl'
+import MyScrollView from './MyScrollView'
+import MyStatusBar from './MyStatusBar'
+import MySwitch from './MySwitch'
+import MyText from './MyText'
+import MyTextInput from './MyTextInput'
+import MyTouchableHighlight from './MyTouchableHighlight'
+import MyTouchableOpacity from './MyTouchableOpacity'
+import MyTouchableWithoutFeedback from './MyTouchableWithoutFeedback'
+import MyView from './MyView'
+import MyVirtualizedList from './MyVirtualizedList'
 
 export default function App() {
   return (
@@ -26,16 +29,20 @@ export default function App() {
       <MyImage/>
       <MyImageBackground/>
       <MyKeyboardAvoidingView/>
-      <MyImage/>
-      <MyImage/>
-      <MyImage/>
-      <MyImage/>
-      <MyImage/>
-      <MyImage/>
-      <MyImage/>
-      <MyImage/>
-      <MyImage/>
-      <MyImage/>
+      <MyModal/>
+      <MyPressable/>
+      <MyRefreshControl/>
+      <MyScrollView/>
+      <MySectionList/>
+      <MyStatusBar/>
+      <MySwitch/>
+      <MyText/>
+      <MyTextInput/>
+      <MyTouchableHighlight/>
+      <MyTouchableOpacity/>
+      <MyTouchableWithoutFeedback/>
+      <MyView/>
+      <MyVirtualizedList/>
     </View>
   );
 }
